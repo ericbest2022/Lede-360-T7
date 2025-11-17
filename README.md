@@ -4,7 +4,7 @@
 
 ## 📝 项目简介
 
-iStoreOS 是基于 [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) 仓库的 OpenWrt 自定义构建版本，增加了科学上网、USB 网络共享支持和 OpenSSH 服务，适用于路由器和嵌入式设备的二次开发与日常使用。
+iStoreOS 是基于 [https://github.com/padavanonly/immortalwrt-mt798x-6.6) 仓库的 OpenWrt 自定义构建版本，增加了科学上网，适用于路由器日常使用。
 
 ---
 
@@ -13,7 +13,7 @@ iStoreOS 是基于 [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) 仓
 ### 默认
 - 管理ip：192.168.199.1
 - 用户名和密码：root/password
-- 无线wifi名称：OpenWrt
+- 无线wifi名称：mt_wifi
 - 无线wifi密码：password
 
 ### 1️⃣ LuCI 插件
@@ -32,13 +32,12 @@ iStoreOS 是基于 [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) 仓
   - 支持标准 SSH 登录和 SFTP 文件传输  
 
 ### 4️⃣ 系统优化
-- 默认主机名修改为 `iStoreOS`  
-- 启动 Banner 已自定义  
-- 默认主题已更换为现代风格 `argon`  
+- 默认主机名修改为 `360T7`  
+  
 
 ---
 
 ## 🛠 构建说明
 
-本仓库基于 [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) 仓库 `master` 分支构建，使用 GitHub Actions 或本地构建均可。
+本仓库基于 [https://github.com/padavanonly/immortalwrt-mt798x-6.6) 仓库 `master` 分支构建，使用 GitHub Actions 或本地构建均可。
 
